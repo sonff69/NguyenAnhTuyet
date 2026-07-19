@@ -955,6 +955,14 @@
                                 <h4 class="font-semibold text-dreamy-gold text-sm">5. Bài học rút ra:</h4>
                                 <p class="text-xs text-white/70 font-light">Sử dụng AI có đạo đức chính là thước đo giá trị bản thân của mỗi sinh viên. Bằng cách áp dụng đúng ranh giới của một người trợ lái (Co-pilot), kết hợp xác thực chéo nguồn gốc và thực hiện khảo sát giá thực tế tại các siêu thị (WinMart, Go!), mình đã tạo ra được một công trình nghiên cứu trung thực, sinh động và có giá trị khoa học đích thực.</p>
                             </div>
+
+                            <!-- Thêm hình ảnh Infographic đạo đức học thuật ở cuối full size theo yêu cầu -->
+                            <div class="pt-6 border-t border-white/10 mt-6">
+                                <h4 class="font-semibold text-dreamy-gold text-base mb-3">6. Infographic Sử dụng AI có trách nhiệm:</h4>
+                                <div class="w-full rounded-2xl overflow-hidden border border-white/15 bg-black/20 shadow-xl p-2">
+                                    <img src="b6.jpg" alt="Infographic bài tập 6" class="w-full h-auto object-contain rounded-xl">
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -1097,7 +1105,7 @@
             });
 
             const targetContent = document.getElementById(`compare-content-${taskIndex}`);
-            targetContent.classList.remove('hidden');
+            targetContent.remove('hidden');
 
             const targetBtn = document.getElementById(`btn-comp-${taskIndex}`);
             targetBtn.classList.remove('text-white/60');
